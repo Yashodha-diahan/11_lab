@@ -1,0 +1,19 @@
+# Dependencies & build output
+node_modules/
+dist/
+bin/
+obj/
+
+# Secrets / environment files — never commit
+.env
+.env.*
+!.env.example
+appsettings.*.local.json
+
+# IDE
+.vs/
+.vscode/
+*.user
+
+# Lab submission documents
+*.docx
